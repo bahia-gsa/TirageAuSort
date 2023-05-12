@@ -1,0 +1,120 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.participants-table {
+  width: 40vw;
+  font-size: 1.3em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.button_delete{
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1.0em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button_delete:hover {
+  background-color: #d32f2f;
+}
+
+button.spin-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button.spin-button:hover {
+  background-color: #45a049;
+}
+
+.drawn-participants-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 5vh;
+  background-color: none;
+  margin-bottom: 20px;
+}
+
+.drawn-participants {
+width: 100%;
+height: 100%;
+
+}
+
+.drawn-participants h2 {
+  font-size: 2em;
+  color: rgb(12, 5, 224);
+}
+
+.drawn-participants span {
+  font-size: 1.2em;
+  color: orangered;
+  font-style: italic;
+}
+
+.draws-table {
+width: 20vw;
+font-size: 1.3em;
+}
+
+.draws-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center
+}
+
+.draws-table th, .draws-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.draws-table th {
+  background-color: #f2f2f2;
+}
+
+.draws-table button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.draws-table button:hover {
+  background-color: #cc0000;
+}

@@ -1,0 +1,8 @@
+
+<form #participantForm="ngForm" (ngSubmit)="createParticipant()" class="participant-form">
+    <h3>New Participant</h3>
+    <input type="text" name="name" [(ngModel)]="name" placeholder="type in the name of the participant.." required>
+    <button type="submit" class="save-button">Save</button>
+    <img src="assets/back.png" alt="" routerLink="/createGame">
+  </form>
+  

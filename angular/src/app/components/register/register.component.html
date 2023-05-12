@@ -1,0 +1,10 @@
+<div class="container">
+  <form class="form-container" (ngSubmit)="register()">
+      <h1>Register</h1>
+      <input type="text" name="name" [(ngModel)]="name" placeholder="your name..." required>
+      <input type="email" name="email" [(ngModel)]="email" placeholder="your email..." required>
+      <input type="password" name="password" [(ngModel)]="password" placeholder="your password" required>
+
+      <button type="submit">Go !!</button>
+  </form>
+</div>

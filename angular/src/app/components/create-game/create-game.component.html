@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Hello {{userName}}, let's play</h1>
+  <form #gameForm="ngForm" (ngSubmit)="createGame()" class="game-form">
+    <h3>New Game</h3>
+    <input type="text" name="name" [(ngModel)]="name" placeholder="type in the name of the game..." required>
+    <button type="submit" class="save-button">Save</button>
+    <img src="assets/logout.png" alt="" (click)="logout()">
+  </form>
+
+  <app-list-games></app-list-games>
+
+</div>

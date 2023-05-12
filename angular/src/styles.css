@@ -1,0 +1,19 @@
+body {
+    position: relative;
+}
+
+body::before {
+    background-image: url('assets/background.jpg');
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2; /* Adjust the opacity value as per your needs */
+    z-index: -1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
